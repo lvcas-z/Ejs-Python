@@ -14,7 +14,7 @@ def calculadora():
     else:
         print("Ingresaste un valor erroneo")
 
-# calculadora()
+calculadora()
 
 # 2)Contador de palabras:
 '''Escribe una función llamada contar_palabras que tome una cadena de texto como entrada y cuente cuántas palabras hay en ella.

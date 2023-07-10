@@ -11,6 +11,7 @@ while num_descendente > 1:
     num_descendente-=1
     print(num_descendente)    
 
+
 # 2)Suma de números
 ''' Escribe un programa que solicite al usuario una serie de números enteros 
 y calcule la suma de todos ellos. El programa debe dejar de solicitar números 

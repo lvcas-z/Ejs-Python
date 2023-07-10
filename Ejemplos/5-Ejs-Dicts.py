@@ -4,18 +4,18 @@ Luego, crea un diccionario donde las claves sean los nombres y los valores sean 
 Finalmente, muestra el diccionario resultante.
 '''
 
-contactos={}
+# contactos={}
 
 
-while True :
-    nombre = input("Ingrese un nombre o 'SALIR' para terminar : ")
-    if(nombre=='SALIR'):
-        print("Saliste de la agenda")
-        break
-    num_telefono = input(f"Ingrese el numero de telefono de {nombre.capitalize()} ")
-    contactos[nombre]=num_telefono
-    break
-print(contactos)
+# while True :
+#     nombre = input("Ingrese un nombre o 'SALIR' para terminar : ")
+#     if(nombre=='SALIR'):
+#         print("Saliste de la agenda")
+#         break
+#     num_telefono = input(f"Ingrese el numero de telefono de {nombre.capitalize()} ")
+#     contactos[nombre]=num_telefono
+#     break
+# print(contactos)
 
 
 
@@ -25,16 +25,16 @@ Luego, cuenta la cantidad de veces que aparece cada palabra en el texto y almace
 Finalmente, muestra el diccionario resultante.
 '''
 
-texto = input("Ingrese un texto")
-palabras = texto.split()
-contador_palabras = {}
-for palabra in palabras:
-    if palabra in contador_palabras:
-        contador_palabras[palabra] += 1
-    else:
-        contador_palabras[palabra] = 1
+# texto = input("Ingrese un texto")
+# palabras = texto.split()
+# contador_palabras = {}
+# for palabra in palabras:
+#     if palabra in contador_palabras:
+#         contador_palabras[palabra] += 1
+#     else:
+#         contador_palabras[palabra] = 1
 
-print(contador_palabras)
+# print(contador_palabras)
 
 
 
@@ -63,17 +63,17 @@ Luego, crea un diccionario donde las claves sean los nombres de los estudiantes 
 Finalmente, muestra el promedio de las calificaciones de todos los estudiantes.
 '''
 
-estudiantes = {}
-while True :
-    nombre_estudiante = input("Ingrese el nombre del estudiante o 'SALIR' para finalizar ")
-    if(nombre_estudiante=='SALIR'):
-        print("Saliste de la aplicacion")
-        break
-    nota_estudiante  = float(input("Ingrese la calificacion"))
+# estudiantes = {}
+# while True :
+#     nombre_estudiante = input("Ingrese el nombre del estudiante o 'SALIR' para finalizar ")
+#     if(nombre_estudiante=='SALIR'):
+#         print("Saliste de la aplicacion")
+#         break
+#     nota_estudiante  = float(input("Ingrese la calificacion"))
     
-    estudiantes[nombre_estudiante]=nota_estudiante
+#     estudiantes[nombre_estudiante]=nota_estudiante
     
-promedio_estudiantes = sum(estudiantes.values()) / len(estudiantes)
+# promedio_estudiantes = sum(estudiantes.values()) / len(estudiantes)
 
-print(f"Estudiantes : {estudiantes}")
-print(f"Promedio total estudiantes : {promedio_estudiantes}")
+# print(f"Estudiantes : {estudiantes}")
+# print(f"Promedio total estudiantes : {promedio_estudiantes}")
